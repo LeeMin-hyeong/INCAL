@@ -4,7 +4,7 @@ import time
 import sys
 from datetime import datetime 
 
-conn = pymssql.connect(host='incal.site', user='reg', password='tmxkdnjwm7', database='INCAL', charset='utf8')
+conn = pymssql.connect(host='*****', user='*****', password='*****', database='INCAL', charset='utf8')
 cursor = conn.cursor()
 
 ClassNumber="204" #큰따옴표 안에 반 번호를 기입하세요(1학년 1반->101)
