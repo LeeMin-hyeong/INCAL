@@ -7,7 +7,7 @@ from datetime import datetime
 conn = pymssql.connect(host='*****', user='*****', password='*****', database='INCAL', charset='utf8')
 cursor = conn.cursor()
 
-ClassNumber="204" #큰따옴표 안에 반 번호를 기입하세요(1학년 1반->101)
+ClassNumber="*****" #큰따옴표 안에 반 번호를 기입하세요(1학년 1반->101)
 
 def Main(): #교실 알림 서비스 실행(조회, 쉬는시간, 점심시간, 종례, 방과 후)
     # 이 코드가 실행되는 동안 긴급 메시지는 일반 메시지로 처리됨
